@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="signUpStyle.css" rel="stylesheet" type="text/css"/>
+        <title></title>
+    </head>
+<body>
+        <div id="register">
+            <div id="register-content">
+                <div id="register-tittle">
+                    <h1>SIGN UP</h1>
+                <div class="underline-tittle"></div>
+                </div>
+                <form class="form" action="registerservelet" method="POST">
+                    <label for="fname" style="padding-top: 13px;">&nbsp;First name</label>
+                    <input type="text" id="fname" class="form-content" name="fname" autocomplete="on" required>
+                    <div class="form-border"></div>
+
+                    <label for="mname" style="padding-top: 13px;">&nbsp;Middle name</label>
+                    <input type="text" id="mname" class="form-content" name="mname" autocomplete="on" required>
+                    <div class="form-border"></div>
+
+                    <label for="lname" style="padding-top: 13px;">&nbsp;Last name</label>
+                    <input type="text" id="mname" class="form-content" name="lname" autocomplete="on" required>
+                    <div class="form-border"></div>
+
+                    <label for="email" style="padding-top: 13px;">&nbsp;Email</label>
+                    <input type="email" id="email" class="form-content" name="email" autocomplete="on" required>
+                    <div class="form-border"></div>
+                        
+                    <label for="Phone" style="padding-top: 13px;">&nbsp;Phone number</label>
+                    <input type="phone" id="Phone" class="form-content" name="Phone" autocomplete="on" required>
+                    <div class="form-border"></div>
+
+                    <label for="id" style="padding-top: 13px;">&nbsp;Employee ID</label>
+                    <input type="text" id="region" class="form-content" name="id" autocomplete="on" required>
+                    <div class="form-border"></div>
+                    
+                    <div class="form-content">
+                        <label for="gender" style="padding-top: 13px;">&nbsp;Select your gender</label><br>
+                        <div class="form-content"></div>
+                        <input type="radio" id="male" name="gender" value="Male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female" required>
+                        <label for="female">Female</label>
+                        <div class="form-border"></div>
+                    </div>
+                    
+                    <div class="form-content">
+                        <label for="position" style="padding-top: 13px;">&nbsp;Select your position</label><br>
+                        <div class="form-content"></div>
+                        <input type="radio" id="chef" name="position" value="Chief chef" required>
+                        <label for="chef">Chief chef</label>
+                        <input type="radio" id="waiter" name="position" value="Waiter" required>
+                        <label for="waiter">Waiter</label>
+                        <div class="form-border"></div>
+                    </div>
+                    
+                    
+                    
+                    <label for="password" style="padding-top: 13px;">&nbsp;Create your password</label>
+                    <input type="password" id="password" class="form-content" name="password" required>
+                    <div class="form-border"></div>
+                    
+
+                    <label for="confirm-password" style="padding-top: 13px;">&nbsp;Retype your password</label>
+                    <input type="password" id="password" class="form-content" name="confirm-password" required>
+                    <div class="form-border"></div>
+
+                    <input type="submit" id="btnsubmit" name="Submit" value="REGISTER">
+                        
+                </form>
+            </div>      
+        </div>
+    </body>
+</html>
